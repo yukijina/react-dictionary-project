@@ -4,6 +4,12 @@
   margin-top: 5rem;
 }
 .App-logo {
-  width: 5rem;
-  height: 5rem;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
 }

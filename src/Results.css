@@ -1,0 +1,30 @@
+.Results {
+  max-width: 60rem;
+  margin: 5rem auto;
+}
+
+.Results-heading--2 {
+  font-size: 3rem;
+  color: #7c43fa;
+}
+
+.Results-phonetic {
+  font-size: 1.4rem;
+}
+
+.Results-result-container {
+  margin-top: 2rem;
+}
+
+.Results-result-container--indivisual {
+  margin-bottom: 1rem;
+}
+
+.Results-part-of-speech {
+  font-size: 1.6rem;
+  color: #595959;
+}
+
+.Results-definition {
+  font-size: 1.8rem;
+}

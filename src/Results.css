@@ -12,19 +12,6 @@
   font-size: 1.4rem;
 }
 
-.Results-result-container {
+.Results-meaning-container {
   margin-top: 2rem;
-}
-
-.Results-result-container--indivisual {
-  margin-bottom: 1rem;
-}
-
-.Results-part-of-speech {
-  font-size: 1.6rem;
-  color: #595959;
-}
-
-.Results-definition {
-  font-size: 1.8rem;
 }

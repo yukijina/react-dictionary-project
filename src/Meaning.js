@@ -11,6 +11,11 @@ export default function Meaning({ meaning, index }) {
         </h3>
         <p className='Meaning-definition'>{meaning.definition}</p>
       </section>
+      <section className='Meaning-example-container'>
+        <p className='Meaning-example'>
+          {meaning.example && `"${meaning.example}"`}
+        </p>
+      </section>
       <Synonyms synonyms={meaning.synonyms} />
     </div>
   );

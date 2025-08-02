@@ -3,6 +3,7 @@ import './Results.css';
 import Meaning from './Meaning';
 
 export default function Results({ data }) {
+  console.log(data);
   if (Object.keys(data).length !== 0) {
     return (
       <div className='Results'>

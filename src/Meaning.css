@@ -5,3 +5,12 @@
 .Meaning-part-of-speech {
   margin-bottom: 0.5rem;
 }
+
+.Meaning-example-container {
+  padding: 1.2rem 2rem;
+}
+
+.Meaning-example {
+  font-size: 1.5rem;
+  color: #898989;
+}

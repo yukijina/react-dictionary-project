@@ -1,12 +1,7 @@
 .Meaning {
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .Meaning-part-of-speech {
-  font-size: 1.6rem;
-  color: #595959;
-}
-
-.Meaning-definition {
-  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
 }

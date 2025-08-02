@@ -1,0 +1,22 @@
+.Synonyms {
+  padding: 2rem;
+}
+
+.Synonyms h4 {
+  font-size: 1.6rem;
+  color: #898989;
+}
+
+.Synonyms ul {
+  display: flex;
+  font-size: 1.6rem;
+  flex-wrap: wrap;
+}
+.Synonyms li {
+  list-style: none;
+  margin: 0.3rem;
+  border: 1px solid #4380fa;
+  border-radius: 10rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 1.4rem;
+}

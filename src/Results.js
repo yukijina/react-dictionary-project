@@ -1,10 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Results.css';
 import Meaning from './Meaning';
 
 export default function Results({ data }) {
-  // console.log(data);
-
   if (Object.keys(data).length !== 0) {
     return (
       <div className='Results'>
@@ -14,7 +12,7 @@ export default function Results({ data }) {
           {data.meanings.map((meaning, index) => {
             return (
               <div key={index}>
-                <Meaning meaning={meaning} />
+                <Meaning meaning={meaning} index={index} />
               </div>
             );
           })}

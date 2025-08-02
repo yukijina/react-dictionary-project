@@ -13,3 +13,12 @@ h1 {
   font-size: 6rem;
   text-transform: uppercase;
 }
+
+h3 {
+  font-size: 1.6rem;
+  color: #898989;
+}
+
+p {
+  font-size: 1.8rem;
+}

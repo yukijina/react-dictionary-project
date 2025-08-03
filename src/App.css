@@ -1,17 +1,60 @@
+.App {
+  background-color: #cfedfd;
+  min-height: 100vh;
+}
+
 .App-header {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  align-items: center;
+  padding-top: 10rem;
 }
 .App-logo {
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
   margin-right: 1rem;
 }
 
+.App-main-container {
+  margin-top: 3rem;
+}
+
+.App-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.App hr {
+  width: 60rem;
+  margin: 0 auto;
+  border: 0.8px solid #4380fa;
+}
+
+.App-footer {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.App-footer-text {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #626262;
+}
+
+.App-footer-link,
+.App-footer-link:visited,
+.App-footer-link:link,
+.App-footer-link:active {
+  text-decoration: none;
+  color: #4380fa;
+}
+.App-footer-link:hover {
+  color: #7c43fa;
+}
+
 h1 {
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 0.4rem;
   font-size: 6rem;
-  text-transform: uppercase;
 }
 
 h3 {

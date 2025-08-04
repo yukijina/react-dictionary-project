@@ -3,7 +3,7 @@ import './Results.css';
 import Meaning from './Meaning';
 
 export default function Results({ data }) {
-  console.log(data);
+  // console.log(data);
   if (Object.keys(data).length !== 0 && Object.values(data)[0] !== undefined) {
     return (
       <div className='Results'>

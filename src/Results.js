@@ -4,7 +4,7 @@ import Meaning from './Meaning';
 
 export default function Results({ data }) {
   console.log(data);
-  if (Object.keys(data).length !== 0) {
+  if (Object.keys(data).length !== 0 && Object.values(data)[0] !== undefined) {
     return (
       <div className='Results'>
         <h2 className='Results-heading--2'>{data.word}</h2>
@@ -18,6 +18,12 @@ export default function Results({ data }) {
             );
           })}
         </div>
+      </div>
+    );
+  } else {
+    return (
+      <div className='Results-default'>
+        <p>Get definitions, synonyms, translations, and more</p>
       </div>
     );
   }

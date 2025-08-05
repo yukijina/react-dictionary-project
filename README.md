@@ -9,7 +9,7 @@ A modern JavaScript React application that functions as an interactive dictionar
 
 ⚛️ Built with React and modern JavaScript (ES6+)
 
-🌐 Fetches data from free external APIs
+🌐 Fetches data from external APIs
 
 💡 Clean and responsive user interface
 

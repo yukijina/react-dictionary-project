@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# 📖 React Dictionary App
+
+A modern JavaScript React application that functions as an interactive dictionary, fetching word definitions and related images from external APIs.
+
+🚀 Features
+🔍 Search for word definitions
+
+🖼️ Display related images for searched words
+
+⚛️ Built with React and modern JavaScript (ES6+)
+
+🌐 Fetches data from free external APIs
+
+💡 Clean and responsive user interface
+
+🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Axios
+- CSS
+- External APIs:
+  Dictionary API, Image API
+
+📄 License
+This project is open-source and available under the MIT License.
+
+🌐 Live Demo
+https://tourmaline-bunny-react-dictionary.netlify.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,6 +1,6 @@
 .App {
   background-color: #cfedfd;
-  min-height: 100vh;
+  height: 100%;
 }
 
 .App-header {
@@ -17,6 +17,7 @@
 
 .App-main-container {
   margin-top: 3rem;
+  margin-bottom: 8rem;
 }
 
 .App-title {
@@ -31,8 +32,9 @@
 }
 
 .App-footer {
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding: 2rem 0.5rem 5rem 0.5rem;
+  /* padding-top: 2rem;
+  padding-bottom: 5rem; */
 }
 .App-footer-text {
   text-align: center;
@@ -64,4 +66,10 @@ h3 {
 
 p {
   font-size: 1.8rem;
+}
+
+@media (max-width: 60rem) {
+  .App hr {
+    width: 90%;
+  }
 }

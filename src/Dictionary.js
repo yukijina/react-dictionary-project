@@ -7,6 +7,7 @@ import Image from './Image';
 export default function Dictionary() {
   const [keyword, setKeyword] = useState(null);
   const [data, setData] = useState({});
+  const [error, setError] = useState(null);
   const [imageData, setImageData] = useState([]);
   const apiKey = '2f5896dd4cc0cdo340203tba4fba205f';
   const url = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
@@ -22,6 +23,12 @@ export default function Dictionary() {
     });
   }
 
+  function handleDictionaryError(error) {
+    // console.log(error);
+    setError(error.message);
+    setData({});
+  }
+
   function handleImages(response) {
     setImageData(response.data.photos);
   }
@@ -33,7 +40,7 @@ export default function Dictionary() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    axios.get(url).then(handleDictionary);
+    axios.get(url).then(handleDictionary).catch(handleDictionaryError);
     axios.get(imageUrl).then(handleImages);
   }
 
@@ -43,7 +50,7 @@ export default function Dictionary() {
         <input type='search' onChange={handleChange} />
         <input type='submit' value='Search' />
       </form>
-      <Results data={data} />
+      <Results data={data} errorMessage={error} />
       <Image imageData={imageData} />
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Results.css';
 import Meaning from './Meaning';
 
-export default function Results({ data }) {
+export default function Results({ data, errorMessage }) {
   // console.log(data);
   if (Object.keys(data).length !== 0 && Object.values(data)[0] !== undefined) {
     return (
@@ -18,6 +18,12 @@ export default function Results({ data }) {
             );
           })}
         </div>
+      </div>
+    );
+  } else if (errorMessage) {
+    return (
+      <div className='Results-default'>
+        <p>The dictionary is not available. Try another word.</p>
       </div>
     );
   } else {
